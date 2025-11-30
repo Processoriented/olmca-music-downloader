@@ -1,0 +1,11 @@
+# Local secrets
+.env
+
+# macOS
+.DS_Store
+
+# Editor temp files
+*.swp
+*.swp~
+.idea/
+.vscode/
