@@ -12,3 +12,6 @@
 
 # database files
 *.sqlite
+
+# log files
+*.log
