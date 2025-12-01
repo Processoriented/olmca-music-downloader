@@ -9,3 +9,6 @@
 *.swp~
 .idea/
 .vscode/
+
+# database files
+*.sqlite

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.processoriented.olmca-music-downloader</string>
+
+  <!-- Program to run (uses project .venv python + script) -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/vincent/projects/olmca-music-downloader/.venv/bin/python</string>
+    <string>/Users/vincent/projects/olmca-music-downloader/omd.py</string>
+  </array>
+
+  <!-- Schedule: weekly by default (604800 seconds). Change to 1209600 for 2 weeks. -->
+  <key>StartInterval</key>
+  <integer>604800</integer>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/vincent/projects/olmca-music-downloader</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/vincent/projects/olmca-music-downloader/omd.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/vincent/projects/olmca-music-downloader/omd.err.log</string>
+</dict>
+</plist>
